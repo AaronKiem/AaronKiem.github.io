@@ -7,16 +7,16 @@ tags:
 <center>
 <font size= "6">Aaron Kiem's Datasheet</font><br>
 as part of<br>
-<font size= "8"> Project Name</font><br>
+<font size= "8"> Individual Set Up</font><br>
 for<br>
 <font size= "5"> Team 204 </font><br>
 
-**Submission: month, DD, YYYY**
+**Submission: 09, 03, 2025**
 </center>
 
 ## Introduction
 
-* This needs to be updated so that a reader gets an idea of the purpose of this datasheet.
+* This is an individual website start up for project submission.
 
 ### Project Summary
 
