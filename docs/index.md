@@ -22,6 +22,8 @@ for<br>
 
 * This website is an outline for future project organization.
 
+- https://aaronkiem.github.io/
+
 ### My Contribution
 
 * I will be setting the foundation for team communication and assist in keeping on track for both individual and collaborative assignments.
