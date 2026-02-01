@@ -3,7 +3,7 @@ title: Module's Requirements
 ---
 
 ## Module Requirements
-The table below outlines the soil pH sensor subsystem of the CropScout exploration device by listing module requirements for measuring pH data to the user.
+The table below outlines the soil pH sensor subsystem of the CropScout exploration device by listing module requirements for measuring pH data and relaying that data to the user.
 
 
 ## Soil pH Sensor Subsystem
