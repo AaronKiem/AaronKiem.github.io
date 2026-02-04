@@ -6,19 +6,16 @@ tags:
 ---
 
 ## Overview
-This needs to be updated with a brief purpose for having the block diagram.
-Things to mention are:
-* power levels
-* sensor
-* Actuator
-* team connections
-* Power source
-* ...
+My individual block diagram is of a metal detection system in which utalizes the LDC1101DRCR metal sensor from Texas Industries. Some features of the block diagram includes:
 
-To get some initial formatting help, one can view ["here"](https://embedded-systems-design.github.io/EGR304DataSheetTemplate/Appendix/basic-markdown-examples/) some basic techniques.
+* power levels - 3.3V
+* sensor - Metal Detection
+* Actuator - Non
+* team connections - Downstream
+* Power source - Plug-in system
 
 
-## Example Block Diagram 
-Showing an example of how to import a screenshot of the block diagram created outside of git and brought into a page.
 
-![Example of Indivial Block diagram ](individual-block-diagram.png)
+## Block Diagram 
+
+![Indivial Block diagram ](Individual_Block_Diagram.drawio.png)
