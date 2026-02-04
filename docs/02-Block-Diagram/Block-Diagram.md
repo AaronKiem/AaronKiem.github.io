@@ -10,7 +10,7 @@ This section depicts my individual block diagram which is of a metal detection s
 
 * power levels - 3.3V
 * sensor - Metal Detection
-* Actuator - Non
+* Actuator - Red LED
 * team connections - Downstream
 * Power source - Plug-in system
 
