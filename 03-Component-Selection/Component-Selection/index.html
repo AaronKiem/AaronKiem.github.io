@@ -626,6 +626,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#microcontroller" class="md-nav__link">
+    <span class="md-ellipsis">
+      Microcontroller
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -847,6 +856,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#microcontroller" class="md-nav__link">
+    <span class="md-ellipsis">
+      Microcontroller
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -881,8 +899,51 @@
 <p>(<strong>remove this note/placeholder</strong>: this is where your 3.3 volt switching regulator, any other needed power regulator, and power source {if applicable} <strong>THAT WERE SELECTED</strong>)</p>
 <p>For more details, review the <a href="https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/01-Componet-Selection/Component-Selection-Process/#power-management">"Appendix - Component Selection Process - Power Mangement"</a> selection.</p>
 <h3 id="sensor">Sensor</h3>
-<p>(<strong>remove this note/placeholder</strong>: if applicable, this is where your  <strong>SELECTED</strong> sensor is shown. Otherwise, remove this section.)</p>
+<table>
+<thead>
+<tr>
+<th><strong>Solution</strong></th>
+<th><strong>Pros</strong></th>
+<th><strong>Cons</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="LDC1101DRCR.webp" data-desc-position="bottom"><img alt="" src="LDC1101DRCR.webp"></a><br>Option 3.<br> LDC1101DRCR<br>$4/each <br> <a href="https://https://www.digikey.com/en/products/detail/texas-instruments/LDC1101DRCR/8347716">Link to product</a></td>
+<td>* Measures both inductance and proximity profiling path <br>* Higher speeds and resolution than the JDC1614 <br></td>
+<td>* Sensor coil must be designed <br>* SPI programming required <br>* More complex to implement</td>
+</tr>
+</tbody>
+</table>
 <p>For more details, review the <a href="https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/01-Componet-Selection/Component-Selection-Process/#sensor">"Appendix - Component Selection Process - Sensor"</a> selection.</p>
+<h2 id="microcontroller">Microcontroller</h2>
+<table>
+<thead>
+<tr>
+<th><strong>Microcontroller</strong></th>
+<th><strong>SPI, UART, I2C</strong></th>
+<th><strong>Pins count</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../PIC18F47Q10.webp" data-desc-position="bottom"><img alt="" src="../PIC18F47Q10.webp"></a><br>Option 1.<br> PIC18F47Q10<br>$3/each <br> <a href="https://www.digikey.com/en/products/detail/microchip-technology/PIC18F47Q10-I-P/10187785">Link to product</a></td>
+<td>* 4-wire SPI <br>* (CSB, SCLK, SDI, SDO) <br></td>
+<td>* 11 Pins, 3.3V system</td>
+</tr>
+</tbody>
+</table>
+<p>My subsystem is of a metal detector system for the CropScout rover design. I am responsible for detecting earth metals underground and will provide an LED actuator. The system will be able to run on 3.3V</p>
 
 
 
