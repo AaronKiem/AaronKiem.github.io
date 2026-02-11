@@ -28,4 +28,4 @@ title: Appendix - Module's Major Components Selection Process
 
 **Choice:** Option 3: LDC1101DRCR
 
-**Rationale:** Despite being more complicated than the JDC1614RGHR, both would require a custom coil design and a PCB layout to apply which would require research to use either parts. But the LDC1101DRCR has higher processing abilities and an available datasheet.
+**Rationale:** Despite being more complicated than the JDC1614RGHR, both would require a custom coil design and a PCB layout to apply which would require research to use either parts. Additionally, the LDC1101DRCR has higher processing abilities and an available datasheet.
