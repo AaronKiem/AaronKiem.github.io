@@ -10,7 +10,6 @@ The following sections are the selected major components necessary for  .....
 
 | **Solution**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------
-|
 ![](AP63203WU.jpg)<br>Option 2. <br> AP63203WU-7<br> $1/each<br>[Link to product](AP63203WU-7) | \* Smaller component <br>\* Low Cost <br> \* Input 4-32V output 3.3V | \* Requires multiple parts <br>\* Single output    | 
 **Choice:** Option 2: AP63203WU-7
 
@@ -24,7 +23,6 @@ For more details, review the ["Appendix - Component Selection Process - Power Ma
 
 | **Solution**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------
-|
 ![](LDC1101DRCR.webp)<br>Option 3.<br> LDC1101DRCR<br>$4/each <br> [Link to product](https://https://www.digikey.com/en/products/detail/texas-instruments/LDC1101DRCR/8347716) | \* Measures both inductance and proximity profiling path <br>\* Higher speeds and resolution than the JDC1614 <br>|  \* Sensor coil must be designed <br>\* SPI programming required <br>\* More complex to implement    |
 
 For more details, review the ["Appendix - Component Selection Process - Sensor"](https://aaronkiem.github.io/Appendix/01-Componet-Selection/Component-Selection-Process/) selection.
