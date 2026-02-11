@@ -25,6 +25,11 @@ For more details, review the ["Appendix - Component Selection Process - Power Ma
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------
 ![](LDC1101DRCR.webp)<br>Option 3.<br> LDC1101DRCR<br>$4/each <br> [Link to product](https://https://www.digikey.com/en/products/detail/texas-instruments/LDC1101DRCR/8347716) | \* Measures both inductance and proximity profiling path <br>\* Higher speeds and resolution than the JDC1614 <br>|  \* Sensor coil must be designed <br>\* SPI programming required <br>\* More complex to implement    |
 
+**Choice:** Option 3: LDC1101DRCR
+
+**Rationale:** Despite being more complicated than the JDC1614RGHR, both would require a custom coil design and a PCB layout to apply which would require research to use either parts. Additionally, the LDC1101DRCR has higher processing abilities and an available datasheet.
+
+
 For more details, review the ["Appendix - Component Selection Process - Sensor"](https://aaronkiem.github.io/Appendix/01-Componet-Selection/Component-Selection-Process/) selection.
 
 
