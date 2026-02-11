@@ -20,6 +20,8 @@ title: Appendix - Controller Table for the PIC
 | Required Programming Hardware, Cost, URL      | MPLAB      | found on the microcontroller's product page                                                               |
 | Works with MPLabX?                            | Yes      | Required.  See [Microchip Development Tools](https://www.microchip.com/development-tools)                 |
 | Works with Microchip Code Configurator?       | Yes      | Can be validated in MPLabX.  Screenshot required.                                                         |
+## MCC Configuration
+[](PDIP40.png)
 
 
 | Module | # Available | Needed | Associated Pins (or * for any) |
