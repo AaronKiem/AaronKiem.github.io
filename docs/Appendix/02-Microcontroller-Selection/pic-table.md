@@ -25,6 +25,7 @@ title: Appendix - Controller Table for the PIC
 ## MCC Configuration
 ![](PDIP40.png)
 
+The PIC18F47Q10 has 40 pins where two VDD pins go to a 3.3V and 2 VSS pins goes to ground. It will have 3 pins dedicated for SPI peripherals on the RC channels. The RA GPIO pin will act as the CS pin for the SPI. Then there will also be 3 ICSP pins for the snap programming. Additionaly there will be an pin output connected to an LED for actuation that goes to the downstream connector.
 
 | Module | # Available | Needed | Associated Pins (or * for any) |
 | ---------- | ----------- | ------ | ------------------------------ |
