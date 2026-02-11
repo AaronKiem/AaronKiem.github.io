@@ -31,5 +31,7 @@ For more details, review the ["Appendix - Component Selection Process - Sensor"]
 ## Microcontroller 
 
 * PIC18F47Q10
+
 ![](PIC18F47Q10.webp)
+
 For more details, review the ["Appendix - Component Selection Process - Table for the PIC"](https://aaronkiem.github.io/Appendix/02-Microcontroller-Selection/pic-table/) selection.
