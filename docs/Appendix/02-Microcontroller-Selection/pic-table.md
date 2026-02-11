@@ -7,7 +7,7 @@ title: Appendix - Controller Table for the PIC
 | Model                                         | PIC18F47Q10-I/P      | 8-bit PIC18 MCU           |
 | Product Page URL                              |       | [link](https://www.digikey.com/en/products/detail/microchip-technology/pic18f47q10-i-p/10187785)                                              |
 | Datasheet URL(s)                              |       | [link](https://ww1.microchip.com/downloads/en/DeviceDoc/PIC18F27-47Q10-Data-Sheet-40002043E.pdf)                                              |
-| Application Notes URL(s)                      |       | Do not paste links directly into the table.  Use a [link](https://ww1.microchip.com/downloads/en/DeviceDoc/PIC18F2X_4XQ10-Prod-Brief-40001920C.pdf)                                              |
+| Application Notes URL(s)                      |       | [link](https://ww1.microchip.com/downloads/en/DeviceDoc/PIC18F2X_4XQ10-Prod-Brief-40001920C.pdf)                                              |
 | Vendor link                                   |       | [link](https://www.digikey.com/en/products/detail/microchip-technology/pic18f47q10-i-p/10187785)                        |
 | Code Examples                                 |       | url(s) for libraries on github or other sites related to the microcontroller and your planned peripherals |
 | External Resources URL(s)                     |       | Search on Google and YouTube for other resources for each specific microcontroller.                       |
@@ -23,7 +23,7 @@ title: Appendix - Controller Table for the PIC
 
 
 ## MCC Configuration
-[](PDIP40.png)
+![](PDIP40.png)
 
 
 | Module | # Available | Needed | Associated Pins (or * for any) |
