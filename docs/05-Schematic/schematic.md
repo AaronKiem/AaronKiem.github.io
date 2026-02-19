@@ -8,7 +8,7 @@ This schematic is design to support a system acting as a metal detector using a 
 
 
 ![schematic](Schematic.jpg){style width:"350" height:"300;"}
-**Figure #1:** Indutive Sensor Subsystem.
+**Figure #1:** Inductive Sensor Subsystem.
 
 
 ## Resouces
