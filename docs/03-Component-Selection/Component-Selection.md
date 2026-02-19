@@ -6,60 +6,37 @@ title: Module's Selected Major Components
 
 The following sections are the selected major components necessary for  .....
 
->**For each of the following sections, use <ins>one of the two styles</ins> given near the end. *REMOVE THIS NOTE***
-
 ### Power Management
 
-(**remove this note/placeholder**: this is where your 3.3 volt switching regulator, any other needed power regulator, and power source {if applicable} **THAT WERE SELECTED**)
+| **Solution**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------
+![](AP63203WU.jpg)<br>Option 2. <br> AP63203WU-7<br> $1/each<br>[Link to product](AP63203WU-7) | \* Smaller component <br>\* Low Cost <br> \* Input 4-32V output 3.3V | \* Requires multiple parts <br>\* Single output    | 
+**Choice:** Option 2: AP63203WU-7
 
-For more details, review the ["Appendix - Component Selection Process - Power Mangement"](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/01-Componet-Selection/Component-Selection-Process/#power-management) selection.
+**Rationale:** The AP63203WU-7 is cheaper and is just as complex as the LM2575D2T, but with a much more balenced layout making it much easier to hand solder.
+
+
+For more details, review the ["Appendix - Component Selection Process - Power Mangement"](https://aaronkiem.github.io/Appendix/01-Componet-Selection/Component-Selection-Process/) selection.
+
 
 ### Sensor
 
-(**remove this note/placeholder**: if applicable, this is where your  **SELECTED** sensor is shown. Otherwise, remove this section.)
+| **Solution**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------
+![](LDC1101DRCR.webp)<br>Option 3.<br> LDC1101DRCR<br>$4/each <br> [Link to product](https://https://www.digikey.com/en/products/detail/texas-instruments/LDC1101DRCR/8347716) | \* Measures both inductance and proximity profiling path <br>\* Higher speeds and resolution than the JDC1614 <br>|  \* Sensor coil must be designed <br>\* SPI programming required <br>\* More complex to implement    |
 
-For more details, review the ["Appendix - Component Selection Process - Sensor"](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/01-Componet-Selection/Component-Selection-Process/#sensor) selection.
+**Choice:** Option 3: LDC1101DRCR
 
-### Actuator
+**Rationale:** Despite being more complicated than the JDC1614RGHR, both would require a custom coil design and a PCB layout to apply which would require research to use either parts. Additionally, the LDC1101DRCR has higher processing abilities and an available datasheet.
 
-(**remove this note/placeholder**: if applicable, this is where your **Selected** the actuator items go, which includes both the driver and motor. Otherwise, remove this section.)
 
-For more details, review the ["Appendix - Component Selection Process - Actuator"](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/01-Componet-Selection/Component-Selection-Process/#actuator) selection.
+For more details, review the ["Appendix - Component Selection Process - Sensor"](https://aaronkiem.github.io/Appendix/01-Componet-Selection/Component-Selection-Process/) selection.
 
------------
-> Remove the following before submitting! Use them to present the selected components
 
-### Style 1
+## Microcontroller 
 
-> This is the example found in the assignment, uses more html
+* PIC18F47Q10
 
-*Table 1: Example component selection*
+![](PIC18F47Q10.webp)
 
-**External Clock Module**
-
-| **Component**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| ![](image1.png)<br> XC1259TR-ND surface mount crystal<br>$1/each<br>[link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)                 | \* Inexpensive[^1]<br>\* Compatible with PSoC<br>\* Meets surface mount constraint of project                                               | \* Requires external components and support circuitry for interface<br>\* Needs special PCB layout. |
-
-**Rationale:** A clock oscillator is easier ....
-
-### Style 2
-
-> Also acceptable, more markdown friendly
-
-**External Clock Module**
-
-1. XC1259TR-ND surface mount crystal
-
-    ![](image1.png)
-
-    * $1/each
-    * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
-
-    | Pros                                      | Cons                                                             |
-    | ----------------------------------------- | ---------------------------------------------------------------- |
-    | Inexpensive                               | Requires external components and support circuitry for interface |
-    | Compatible with PSoC                      | Needs special PCB layout.                                        |
-    | Meets surface mount constraint of project |
-
-**Rationale:** A clock oscillator is easier ...
+For more details, review the ["Appendix - Component Selection Process - Table for the PIC"](https://aaronkiem.github.io/Appendix/02-Microcontroller-Selection/pic-table/) selection.
