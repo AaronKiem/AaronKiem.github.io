@@ -37,6 +37,6 @@ For more details, review the ["Appendix - Component Selection Process - Sensor"]
 
 * PIC18F47Q10
 
-![](PIC18F47Q10.webp)
+![](PIC18F47Q10SM.webp)
 
 For more details, review the ["Appendix - Component Selection Process - Table for the PIC"](https://aaronkiem.github.io/Appendix/02-Microcontroller-Selection/pic-table/) selection.
