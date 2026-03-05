@@ -16,18 +16,31 @@ for<br>
 
 ## Introduction
 
-* **This needs to be updated so that a reader gets an idea of the purpose of this datasheet.**
+This datasheet documents my subsystem of the metal detection design for the Team 202's CropScout rover system. The purpose of my design is to be able to identity inductive earth metals using an inductance to digital sensor to send to other subsystems for the multifaceted agricultural exploration rover.
 
 ### Project Summary
 
-* This needs to be updated to reflect <ins>your version</ins> of the team project, so when shared not via the team's report, the reader gets an idea of the direction of the project and how your work will contribute to the overall success.
-* Add context that ties into the link to your [team report.](https://egr314-s-2026-202.github.io/)
+The CropScout is an exploration rover purposed to support the agricultural sector. It is equipped with a front arm system and a handheld wireless controller in addition to various sensors such as for temperature, tilt, pressure, and metal. There are several subsystems that aid to assemble the project.
+
+
+* An overview for the entire project can be found on the [EGR 314 - Team 202 Report.](https://egr314-s-2026-202.github.io/)
 
 ### My Contribution
 
-* This needs to be updated to reflect a team introduction
-* Content should also help an unfamiliar reader navigate to areas of interest. Information like:
+My contributions include:
 
-To review the details listed of the material used to construct the subsection, you can review it in the ["BOM"](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/04-BOM/BOM/) section of the datasheet.
+* Being able to detect nearby metals using a copper coil.
+* Having an indicator for detected metals.
+* Designing a schematic and PCB layout.
+* Programming a PIC microcontroller with SPI.
 
->Continue for all the remaining/missing sections.
+
+To review the details listed above follow the pages to find:
+
+* ["Project Requirements"](https://aaronkiem.github.io/01-Requirements/Requirements/)
+* ["Block Diagram"](https://aaronkiem.github.io/02-Block-Diagram/Block-Diagram/)
+* ["Component Selection"](https://aaronkiem.github.io/03-Component-Selection/Component-Selection/) 
+* ["BOM"](https://aaronkiem.github.io/04-BOM/BOM/)
+* ["Schematic"](https://aaronkiem.github.io/05-Schematic/schematic/) 
+* ["Power budget"](https://aaronkiem.github.io/Appendix/03-Power-Budget/Power-Budget/) 
+
