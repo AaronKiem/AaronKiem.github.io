@@ -321,6 +321,46 @@
     
     
       <li class="md-tabs__item">
+        <a href="../../06-PCB/PCB/" class="md-tabs__link">
+          
+  
+    
+  
+  06 PCB
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../07-Reflection/Reflection/" class="md-tabs__link">
+          
+  
+    
+  
+  07 Reflection
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
         <a href="../../Appendix/" class="md-tabs__link">
           
   
@@ -511,9 +551,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#soil-ph-sensor-subsystem" class="md-nav__link">
+  <a href="#inductive-to-digital-sensor-subsystem" class="md-nav__link">
     <span class="md-ellipsis">
-      Soil pH Sensor Subsystem
+      Inductive to Digital Sensor Subsystem
     </span>
   </a>
   
@@ -729,6 +769,98 @@
     
       
         
+      
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../06-PCB/PCB/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    06 PCB
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../07-Reflection/Reflection/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    07 Reflection
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
           
         
       
@@ -809,9 +941,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#soil-ph-sensor-subsystem" class="md-nav__link">
+  <a href="#inductive-to-digital-sensor-subsystem" class="md-nav__link">
     <span class="md-ellipsis">
-      Soil pH Sensor Subsystem
+      Inductive to Digital Sensor Subsystem
     </span>
   </a>
   
@@ -844,7 +976,7 @@
 
 <h2 id="module-requirements">Module Requirements</h2>
 <p>The table below outlines the metal detecting sensor subsystem of the CropScout exploration device by listing module requirements for processing and relaying that data to the user.</p>
-<h2 id="soil-ph-sensor-subsystem">Soil pH Sensor Subsystem</h2>
+<h2 id="inductive-to-digital-sensor-subsystem">Inductive to Digital Sensor Subsystem</h2>
 <table>
 <thead>
 <tr>
@@ -868,15 +1000,15 @@
 <td style="text-align: center;">No</td>
 </tr>
 <tr>
-<td>Wireless Communication</td>
-<td>Able to send or receive a Wi-Fi data</td>
-<td>Send and receive Wi-Fi Data to MQTT</td>
-<td style="text-align: center;">Yes</td>
+<td>Wired Communication</td>
+<td>Able to send or receive analog/digital data from other subsystems</td>
+<td>Send and receive data to other subsystems</td>
+<td style="text-align: center;">No</td>
 </tr>
 <tr>
 <td>LDC1101DRCR (metal detecting sensor)</td>
-<td>Able to detect metal 6 inches away</td>
-<td>Able to produce a signal from detecting metal that is 6 inches under soil</td>
+<td>Able to detect touching metals</td>
+<td>Able to produce a signal from detecting metal that is 6 inches</td>
 <td style="text-align: center;">No</td>
 </tr>
 </tbody>
