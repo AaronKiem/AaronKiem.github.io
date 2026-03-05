@@ -43,10 +43,7 @@ To review the details listed above follow the pages to find:
 * ["BOM"](https://aaronkiem.github.io/04-BOM/BOM/)
 * ["Schematic"](https://aaronkiem.github.io/05-Schematic/schematic/) 
 
-In the appendix you can find: 
-* ["Component Selection process"](https://aaronkiem.github.io/Appendix/01-Componet-Selection/Component-Selection-Process/) 
-* ["Controller Table for the PIC"](https://aaronkiem.github.io/Appendix/02-Microcontroller-Selection/pic-table/) 
-* ["Power budget"](https://aaronkiem.github.io/Appendix/03-Power-Budget/Power-Budget/) 
+In the find more in the ["Appendix page"](https://aaronkiem.github.io/Appendix/).
 
 
 
