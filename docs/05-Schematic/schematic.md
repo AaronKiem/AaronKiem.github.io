@@ -14,3 +14,5 @@ This schematic is design to support a system acting as a metal detector using a 
 ## Resouces
 
 The schematic as a PDF download is available [*here*](EGR314.pdf), and the Zip folder of the project [*here*](EGR314.zip).
+
+The symbol Library for KiCad is available [*here*](EGR314_Symbols.pdf)
