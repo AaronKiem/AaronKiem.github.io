@@ -1,9 +1,15 @@
+---
+title: PCB
+---
+## Overview
+This section is an overview of the PCB design for the Metal detection system for the CropScout.
 
-![Front](Front.jpg){style width:"350" height:"300;"}
+
+![Front](Front.png){style width:"350" height:"300;"}
 **Figure #1:** Front View of PCB.
 
 
-![Back](Back.jpg){style width:"350" height:"300;"}
+![Back](Back.png){style width:"350" height:"300;"}
 **Figure #2:** Back View of PCB.
 
 
