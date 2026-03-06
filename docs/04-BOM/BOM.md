@@ -16,7 +16,7 @@ This section is the BOM (Bill of Materials) for the CropScout metal detection su
 |:--------------------------|:--------|:---------------|:---------------|:-----------------|:-------------------|:----------------|:-------------------|:-----------------------------------|
 | Barrel Jack | 1 | $0.76 | $0.76 | Same Sky | PJ-102AH | [Link](https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/PJ-102AH/408448?s=N4IgTCBcDaIAoCkC0BGADGAggCRAXQF8g) | [Link](https://www.sameskydevices.com/product/resource/pj-102ah.pdf) | J1 |
 | Conn_02x04 | 2 | $3.85 | $7.70 | Connectors Pro | FFSD-04-D-04.00-01 | [Link](https://www.digikey.com/en/products/detail/samtec-inc/FFSD-04-D-04-00-01/6695041) | [Link](https://suddendocs.samtec.com/catalog_english/ffsd.pdf) | J2, J3 |
-| Conn_01x02 | 5 | $0.49 | $2.55 | Sullins Connector Solutions | PPPC032LFBN-RC | [Link](https://www.digikey.com/en/products/detail/sullins-connector-solutions/PPPC032LFBN-RC/810243) | [Link](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/937/Female_Headers.100_DS.pdf) | J4,J5,J6,J7,J8 |
+| Conn_02x03 | 1 | $0.49 | $2.55 | Sullins Connector Solutions | PPPC032LFBN-RC | [Link](https://www.digikey.com/en/products/detail/sullins-connector-solutions/PPPC032LFBN-RC/810243) | [Link](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/937/Female_Headers.100_DS.pdf) | J4,J5,J6,J7,J8 |
 | 2A Fuse Holder | 1 | $1.13 | $1.13 | Littelfuse Inc. | 64900001039 | [Link](https://www.digikey.com/en/products/detail/littelfuse-inc/64900001039/245470?s=N4IgTCBcDaIGwBYCcAGNKCMKDMSQF0BfIA) | [Link](https://www.littelfuse.com/assetdocs/649-series-fuseholder-data-sheet?assetguid=273c538e-be34-4663-90f2-d0254c30b851) | F1 |
 | PIC Microcontroller | 1 | $1.49 | $1.49 | Microchip Technology | PIC18F47Q10-I/PT | [Link](https://www.digikey.com/en/products/detail/microchip-technology/pic18f47q10-i-pt/10187786) | [Link](https://ww1.microchip.com/downloads/en/DeviceDoc/PIC18F27-47Q10-Data-Sheet-40002043E.pdf) | U1 |
 | ID converter | 1 | $4.85 | $4.85 | Texas Instruments | LDC1101DRCR | [Link](https://www.digikey.com/en/products/detail/texas-instruments/ldc1101drcr/5320160) | [Link](https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fldc1101) | U2 |
@@ -35,10 +35,12 @@ This section is the BOM (Bill of Materials) for the CropScout metal detection su
 | 470 Resistor | 1 | $0.44 | $0.44 | Vishay Dale | CRCW1206470RJNEAIF | [Link](https://www.digikey.com/en/products/detail/vishay-dale/CRCW1206470RJNEAIF/11500710?gclsrc=aw.ds&gad_source=1&gad_campaignid=23434098130&gbraid=0AAAAADrbLli4g5iIymhrQD1Qooo3tnrpj&gclid=Cj0KCQiAwYrNBhDcARIsAGo3u33eJX_PRD4x3JCYKGThm9pXu8KfR8HM2WbzEAbeTiBTugEb78N918caAs4XEALw_wcB) | [Link](https://www.vishay.com/docs/20024/dcrcwife3.pdf) | R4 |
 | 4.7uH Inductor | 1 | $0.17 | $0.17 | Murata Electronics | LQM2HPN4R7MG0L | [Link](https://www.digikey.com/en/products/detail/murata-electronics/LQM2HPN4R7MG0L/1893673) | [Link](https://search.murata.co.jp/Ceramy/image/img/P02/JELF243B-0019.pdf) | L1 |
 | Copper Coil (100uH Inductor) | 1 | $14.91 | $14.91 | Remington Industries | 24SNSP.125 | [Link](https://www.digikey.com/en/products/detail/remington-industries/24SNSP-125/11613800) | [Link](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/56/PolyurethaneMagnetWireDataSheet.pdf) | L2 |
-| Conn_1x8_pin | 1 | $0.56 | $0.56 | Sullins Connector Solutions | PREC040SABN-RC | [Link](https://www.digikey.com/en/products/detail/sullins-connector-solutions/PREC040SABN-RC/2775014) | [Link](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/386/xRxCzzzSxxN-RC_ST_11635-B.pdf) | J5 |
+| Conn_1x2_pin | 1 | $0.56 | $0.56 | Sullins Connector Solutions | PREC040SABN-RC | [Link](https://www.digikey.com/en/products/detail/sullins-connector-solutions/PREC040SABN-RC/2775014) | [Link](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/386/xRxCzzzSxxN-RC_ST_11635-B.pdf) | J5,J6,J7,J8 |
 
 
 
 ## Resource
 
-The Bill of Material as a PDF download is available [*here*](PDF_For_BOM_EXAMPLE.pdf).
+The Bill of Material as a PDF download is available [*here*](IndivBOM.pdf).
+
+The Bill of Material as a .xlsx download is available [*here*](IndivBOM.xlsx).
