@@ -7,7 +7,7 @@ This section is an overview of the application programming interface (API) for t
 ## This Subsystem's ID
 * Metal Detection: m
 
-## All Subsystem IDs
+### All Subsystem IDs
 
 | Subsystem | ID |
 |-----------|-----|
