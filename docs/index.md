@@ -41,7 +41,10 @@ To review the details listed above follow the pages to find:
 * ["Block Diagram"](https://aaronkiem.github.io/02-Block-Diagram/Block-Diagram/)
 * ["Component Selection"](https://aaronkiem.github.io/03-Component-Selection/Component-Selection/) 
 * ["BOM"](https://aaronkiem.github.io/04-BOM/BOM/)
-* ["Schematic"](https://aaronkiem.github.io/05-Schematic/schematic/) 
+* ["Schematic"](https://aaronkiem.github.io/05-Schematic/schematic/)
+* ["PCB"](https://aaronkiem.github.io/06-PCB/PCB/) 
+* ["Reflection"](https://aaronkiem.github.io/07-Reflection/Reflection/) 
+* ["API"](https://aaronkiem.github.io/08-API/API/) 
 
 In the find more in the ["Appendix page"](https://aaronkiem.github.io/Appendix/).
 

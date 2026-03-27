@@ -7,7 +7,7 @@ This section is an overview of the application programming interface (API) for t
 ## This Subsystem's ID
 * Metal Detection: m
 
-# All Subsystem IDs
+## All Subsystem IDs
 
 | Subsystem | ID |
 |-----------|-----|
@@ -27,17 +27,16 @@ For telling the metal detection system to read the output value and prepare to r
 
 | Field | Bytes | Section Name | Type | Min Recognized | Max Recognized | Example |
 |-------|-------|---------------|------------------------|----------------|----------------|---------|
-| Variable | 2 | MR | string | -- | -- | -- |
+| Variable | 2 | MR | string | -- | -- | MR |
 | Separator | 1 | : | char | : | : | : |
-| Type Identifier | 1 | S | string | -- | -- | -- |
+| Type Identifier | 1 | S | string | -- | -- | S |
 | Separator | 1 | : | char | : | : | : |
-| Value | 4 | read | string | read | read | read |
+| Value | 4 | read | string | -- | -- | read |
 | Terminator | 1 | ; | char | ; | ; | ; |
 
 **Total Message Data Bytes: 10**
 
-# Valid Example Packet:
-
+### Valid Example Packet:
 AZhmMR:S:read:YB
 
 ## Meaning:
@@ -56,17 +55,16 @@ For telling the HMI subsystem the output value of the metal detection system.
 
 | Field | Bytes | Section Name | Type | Min Recognized | Max Recognized | Example |
 |-------|-------|---------------|------------------------|----------------|----------------|---------|
-| Variable | 2 | MD | string | -- | -- | -- |
+| Variable | 2 | MD | string | -- | -- | MD |
 | Separator | 1 | : | char | : | : | : |
-| Type Identifier | 1 | S | string | -- | -- | -- |
+| Type Identifier | 1 | S | string | -- | -- | S |
 | Separator | 1 | : | char | : | : | : |
 | Value | 1 | T/F | string | F | T | T |
 | Terminator | 1 | ; | char | ; | ; | ; |
 
 **Total Message Data Bytes: 7**
 
-# Valid Example Packet:
-
+### Valid Example Packet:
 AZmhMD:S:T:YB
 
 ## Meaning:
@@ -94,8 +92,7 @@ This broadcast message tells every subsystem connected to turn on their LED to i
 
 **Total Message Data Bytes: 11**
 
-# Valid Example Packet:
-
+### Valid Example Packet:
 AZhXST:S:Start:YB
 
 ## Meaning:
@@ -107,6 +104,7 @@ AZhXST:S:Start:YB
 - YB = End
 
 ## Behavior rules (ID: m)
+### Recieving
 - Check message validity
     - If invalid, then output error, then trash
     - If valid, then continue
@@ -120,7 +118,7 @@ AZhXST:S:Start:YB
     - If destination is 'm', then continue
     - If destination is 'X', then continue  
 
-- Identify Varible
+- Identify Varible Name
 
 - Identify Varible Type
 
@@ -129,3 +127,10 @@ AZhXST:S:Start:YB
 - Handle message in system
     - If destination stated 'm', then trash, then create new message to source
     - If destination stated 'X', then pass
+
+### Sending
+- Send MD (Metal detected) data to source h (HMI subsystem)
+    - If value = True, send AZmhMD:S:T:YB
+    - If vaule - False, send AZmhMD:S:F:YB
+
+
