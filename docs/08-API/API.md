@@ -37,8 +37,7 @@ For telling the metal detection system to read the output value and prepare to r
 
 **Total Message Data Bytes: 10**
 
-### Valid Example Packet:
-**AZhmMR:S:read:YB**
+### Valid Example Packet: **AZhmMR:S:read:YB**
 
 ## Meaning:
 - AZ = Start
@@ -65,8 +64,7 @@ For telling the HMI subsystem the output value of the metal detection system.
 
 **Total Message Data Bytes: 7**
 
-### Valid Example Packet:
-**AZmhMD:S:T:YB**
+### Valid Example Packet: **AZmhMD:S:T:YB**
 
 ## Meaning:
 - AZ = Start
@@ -93,8 +91,7 @@ This broadcast message tells every subsystem connected to turn on their LED to i
 
 **Total Message Data Bytes: 11**
 
-### Valid Example Packet:
-**AZhXST:S:Start:YB**
+### Valid Example Packet: **AZhXST:S:Start:YB**
 
 ## Meaning:
 - AZ = Start
