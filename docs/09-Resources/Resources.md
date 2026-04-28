@@ -4,6 +4,6 @@ title: Resources
 
 ## MPLab X IDE code
 
-- MPLAB.zip file
+- The zip folder of the MPLAB project [*here*](Metal_Detector.zip).
 
 
