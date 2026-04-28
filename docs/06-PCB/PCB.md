@@ -10,9 +10,13 @@ This section is an overview of the PCB design for the Metal detection system for
 **Figure #1:** Front View of PCB.
 
 
+
+
 ![Back](Back.png){style width:"350" height:"300;"}
 
 **Figure #2:** Back View of PCB.
+
+
 
 
 ![Front](PCBBlank.png){style width:"350" height:"300;"}
@@ -20,9 +24,13 @@ This section is an overview of the PCB design for the Metal detection system for
 **Figure #3:** Blank PCB Layout
 
 
+
+
 ![Front](PCBFront.png){style width:"350" height:"300;"}
 
 **Figure #4:** Final Front PCB
+
+
 
 
 ![Front](PCBBack.png){style width:"350" height:"300;"}
