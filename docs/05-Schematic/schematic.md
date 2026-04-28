@@ -11,6 +11,7 @@ This schematic is design to support a system acting as a metal detector using a 
 **Figure #1:** Inductive Sensor Subsystem.
 
 
+
 ## Resouces
 
 The schematic as a PDF download is available [*here*](EGR314.pdf)

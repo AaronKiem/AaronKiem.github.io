@@ -15,6 +15,27 @@ This section is an overview of the PCB design for the Metal detection system for
 **Figure #2:** Back View of PCB.
 
 
+![Front](PCBBlank.HEIC){style width:"350" height:"300;"}
+
+**Figure #3:** Blank PCB Layout
+
+
+![Front](PCBFront.HEIC){style width:"350" height:"300;"}
+
+**Figure #4:** Final Front PCB
+
+
+![Front](PCBBack.HEIC){style width:"350" height:"300;"}
+
+**Figure #5:** Final Back PCB
+
+
+
+
+
+
+
+
 The zip folder of the project [*here*](EGR314.zip).
 
 The footprint Library for KiCad [*here*](EGR314_Footprints.zip)

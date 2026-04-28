@@ -41,3 +41,13 @@ For more details, review the ["Appendix - Component Selection Process - Sensor"]
 ![](PIC18F47Q10SM.webp)
 
 For more details, review the ["Appendix - Component Selection Process - Table for the PIC"](https://aaronkiem.github.io/Appendix/02-Microcontroller-Selection/pic-table/) selection.
+
+
+
+## Selected Components Summary
+
+| Component Type      | Chosen Part    | Key Specifications / Notes                                                                                                                                   | Unit Cost |
+| :------------------ | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------- |
+| Power Management    | AP63203WU-7    | 3.3V Output; Input range 4-32V; Easier hand soldering due to balanced layout; Requires multiple external parts.    | ~$1.00    |
+| Sensor              | LDC1101DRCR    | Measures inductance and proximity; Higher speed/resolution; Requires custom sensor coil design and SPI programming; More complex to implement.    | ~$4.00    |
+| Microcontroller     | PIC18F47Q10    | Requires SNAP programmer and MPLAB software for programming     | $1.49 |
