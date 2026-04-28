@@ -15,17 +15,17 @@ This section is an overview of the PCB design for the Metal detection system for
 **Figure #2:** Back View of PCB.
 
 
-![Front](PCBBlank.HEIC){style width:"350" height:"300;"}
+![Front](PCBBlank.png){style width:"350" height:"300;"}
 
 **Figure #3:** Blank PCB Layout
 
 
-![Front](PCBFront.HEIC){style width:"350" height:"300;"}
+![Front](PCBFront.png){style width:"350" height:"300;"}
 
 **Figure #4:** Final Front PCB
 
 
-![Front](PCBBack.HEIC){style width:"350" height:"300;"}
+![Front](PCBBack.png){style width:"350" height:"300;"}
 
 **Figure #5:** Final Back PCB
 
