@@ -43,8 +43,9 @@ To review the details listed above follow the pages to find:
 * ["BOM"](https://aaronkiem.github.io/04-BOM/BOM/)
 * ["Schematic"](https://aaronkiem.github.io/05-Schematic/schematic/)
 * ["PCB"](https://aaronkiem.github.io/06-PCB/PCB/) 
-* ["Reflection"](https://aaronkiem.github.io/07-Reflection/Reflection/) 
-* ["API"](https://aaronkiem.github.io/08-API/API/) 
+* ["API"](https://aaronkiem.github.io/08-API/API/)
+* ["Hardware 2.0"](https://aaronkiem.github.io/08-Hardware-V2.0/Hardware-V2.0/)  
+* ["Resources"](https://aaronkiem.github.io/09-Resources/Resources/) 
 
 In the find more in the ["Appendix page"](https://aaronkiem.github.io/Appendix/).
 
